@@ -1,0 +1,10 @@
+These lines are only begginner attempts to create an HTML UI for a travel application.
+These input fields may be nicer, but they are functional.
+
+I used http://ipinfo.io/ in order to retrieve the geo location of application user. 
+
+The airport list (geo_calatog.csv) is downloaded from SkyScanner API, based on these materials: 
+	http://en.business.skyscanner.net/documentation/
+	https://skyscanner.github.io/slate/#api-documentation
+
+These were written on Ubuntu 16.04 64bit OS using R and RStudio.
