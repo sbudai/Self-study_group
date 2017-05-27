@@ -65,13 +65,13 @@ shinyUI(
           # SET OF RADIO BUTTONS FOR SETTING DISTANCE
           uiOutput('DistanceSelector'),
           
-          # SELECT BOX FOR CHOOSING AIRPORT
+          # SELECT BOX FOR CHOOSING DIRECTION(S)
           uiOutput('DirectionsSelector')
 
         ) # wellPanel
       ), # column
       
-      # COMPOSING TO SECTION
+      # COMPOSING GO BUTTON SECTION
       column(
         width = 1,  
         offset = 0,
@@ -90,7 +90,6 @@ shinyUI(
     mainPanel(
       
       h3('CHOSEN VALUES'),
-      # DISPLAYING CHOSEN VALUES
       textOutput('ChosenDepDates1'),
       textOutput('ChosenDepDates2'),
       textOutput('ChosenDuration'),
